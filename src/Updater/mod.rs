@@ -4,7 +4,7 @@ use std::{env, process::Command};
 pub fn update() -> Result<(), Box<dyn ::std::error::Error>> {
     let status = self_update::backends::github::Update::configure()
         .repo_owner("jamiroferrara")
-        .repo_name("mayday.remote_rack.server")
+        .repo_name("mayday.remoterack.server")
         .bin_name("github")
         .show_download_progress(true)
         .no_confirm(true)
