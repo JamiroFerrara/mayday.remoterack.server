@@ -2,7 +2,7 @@ use server::Listener::*;
 use server::Updater::*;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    update()?;
+    update();
     tokio_main()?;
     Ok(())
 }
