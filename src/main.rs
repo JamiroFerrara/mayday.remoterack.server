@@ -1,5 +1,5 @@
 use server::Listener::*;
-use server::Updater::*;
+use server::updater::*;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     update();

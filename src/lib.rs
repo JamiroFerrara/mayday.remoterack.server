@@ -1,4 +1,4 @@
 pub mod Listener;
-pub mod Updater;
+pub mod updater;
 pub use self::Listener::*;
-pub use self::Updater::*;
+pub use self::updater::*;
